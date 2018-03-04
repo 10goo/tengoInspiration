@@ -1,0 +1,9 @@
+<div class="container"
+*ngIf="state"
+(click)="toggleState()"
+[@quoteIn]="state"
+(@quoteOut.done)="changeQuote()"
+  >
+  <p>{{selectedQuote.text}}</p>
+  <span>{{selectedQuote.author}}</span>
+</div>

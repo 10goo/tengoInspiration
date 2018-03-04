@@ -1,0 +1,13 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: square;
+  padding: 0.4rem;
+  width: auto;
+}
+
+* {
+  width: 80%;
+}
